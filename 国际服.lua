@@ -710,7 +710,7 @@ Ly.make = function(sr)
     return gg.makeRequest(sr).content
 end
 
-Ly.load("http://yuesa.github.io/数组.lua")
+Ly.load("https://yuesa.github.io/数组.lua")
 --Ly.load("http://yuesxcf.top/data/User/admin/home/菜单.txt")
 --Ly.load("http://yuesxcf.top/cy.lua")
 --Ly.load("http://yuesxcf.top/skysz.lua")
@@ -2956,12 +2956,12 @@ zdlb=function()
         return 0
     end
     lqdh = sddz + 0x467BA4
-	Gift={{'SNC01'},{'SNC00'},{'SNC32'},{'SNC30'},{'SNC29'},{'SNC33'},{'SNC13'},{'SNC35'},{'SNC34'},{'SNC60'},{'SNC59'},{'SNC54'},{'SNC58'},{'SNC55'},{'SNC49'},{'SNC28'},{'SNC51'},{'SNC56'},{'SNC57'},{'SNC48'},{'SNC47'},{'SNC09'},{'SNC25'},{'SNC24'},{'SNC46'},{'SNC23'},{'SNC45'},{'SNC44'},{'SNC43'},{'SNC20'},{'SNC08'},{'SNC22'},{'SNC21'},{'SNC19'},{'SNC42'},{'SNC41'},{'SNC40'},{'SNC03'},{'SNC18'},{'SNC17'},{'SNC05'},{'SNC06'},{'SNC15'},{'SNC14'},{'SNC39'},{'SNC38'},{'SNC37'},{'SNC36'},{'SNC07'},{'SNC61'},{'SNC73'},{'SNC62'},{'SNC63'},{'SNC64'},{'SNC65'},{'SNC66'},{'SNC67'},{'SNC68'},{'SNC76'},{'SNC73'},{'SNC74'},{'SNC75   '},{'SNC77'},{'SNC79'},{'SPASSR  '},{'SPASSP3'},}	
-	search1(4 ,{':spiritshopitem_ap06unlock_cs_dol_friendship',1,': ',1})
+	Gift={{'SNC01'},{'SNC00'},{'SNC32'},{'SNC30'},{'SNC29'},{'SNC33'},{'SNC13'},{'SNC35'},{'SNC34'},{'SNC60'},{'SNC59'},{'SNC54'},{'SNC58'},{'SNC55'},{'SNC49'},{'SNC28'},{'SNC51'},{'SNC56'},{'SNC57'},{'SNC48'},{'SNC47'},{'SNC09'},{'SNC25'},{'SNC24'},{'SNC46'},{'SNC23'},{'SNC45'},{'SNC44'},{'SNC43'},{'SNC20'},{'SNC08'},{'SNC22'},{'SNC21'},{'SNC19'},{'SNC42'},{'SNC41'},{'SNC40'},{'SNC03'},{'SNC18'},{'SNC17'},{'SNC05'},{'SNC06'},{'SNC15'},{'SNC14'},{'SNC39'},{'SNC38'},{'SNC37'},{'SNC36'},{'SNC07'},{'SNC61'},{'SNC73'},{'SNC62'},{'SNC63'},{'SNC64'},{'SNC65'},{'SNC66'},{'SNC67'},{'SNC68'},{'SNC76'},{'SNC73'},{'SNC74'},{'SNC75���'},{'SNC77'},{'SNC79'},{'SPASSR��'},{'SPASSP3'},}	
+	search1(4 ,{':spiritshopitem_ap06unlock_cs_dol_friendship',1,':�',1})
 	gg['toast']('✓')
-	search1(4 ,{':collectible_',1,': ',1})
-	search1(4 ,{':global_',1,': ',1})
-	search1(4 ,{':season_',1,': ',1})
+	search1(4 ,{':collectible_',1,':�',1})
+	search1(4 ,{':global_',1,':�',1})
+	search1(4 ,{':season_',1,':�',1})
 	gg['toast']('✓')
 	for k,v in pairs(Gift)do
 		for i=1,8 do
